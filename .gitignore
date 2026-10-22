@@ -1,0 +1,26 @@
+# Databricks
+.databricks/
+DBFS/
+
+# Genie agent config (environment-specific)
+*.geniespace.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Secrets & credentials
+.env
+*.pem
+*.key
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+tmp/
